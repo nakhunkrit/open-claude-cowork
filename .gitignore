@@ -141,3 +141,5 @@ vite.config.ts.timestamp-*
 .vite/
 
 .DS_Store
+# Auto-generated at runtime by server.js (contains live MCP API key)
+server/opencode.json
