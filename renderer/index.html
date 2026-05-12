@@ -167,6 +167,19 @@
           </button>
         </header>
 
+        <section class="chat-inbox hidden" id="chatInbox">
+          <div class="chat-inbox-header">
+            <span class="chat-inbox-title">Incoming Notes</span>
+            <div class="chat-inbox-controls">
+              <button class="chat-inbox-toggle" id="chatLinkedModeToggle" type="button">Link: On</button>
+              <button class="chat-inbox-toggle" id="chatAutoIncludeToggle" type="button">Auto context: On</button>
+              <button class="chat-inbox-refresh" id="chatInboxRefreshBtn" type="button">Refresh</button>
+            </div>
+          </div>
+          <div class="chat-inbox-list" id="chatInboxList"></div>
+          <div class="chat-inbox-empty hidden" id="chatInboxEmpty">No incoming notes</div>
+        </section>
+
         <div class="messages-container" id="chatMessages">
           <!-- Messages will be added here dynamically -->
         </div>
