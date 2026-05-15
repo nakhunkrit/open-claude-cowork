@@ -743,8 +743,7 @@ body {
   justify-content: flex-end;
 }
 
-.chat-inbox-refresh,
-.chat-inbox-toggle {
+.chat-inbox-refresh {
   border: 1px solid var(--border-light);
   background: var(--bg-white);
   border-radius: 6px;
@@ -754,19 +753,17 @@ body {
   cursor: pointer;
 }
 
-.chat-inbox-refresh:hover,
-.chat-inbox-toggle:hover {
+.chat-inbox-refresh:hover {
   background: var(--bg-cream);
 }
 
-.chat-inbox-toggle.active {
-  border-color: var(--accent-coral);
-  color: var(--accent-coral);
-}
-
-.chat-inbox-toggle:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.chat-inbox-mode-badge {
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #1d4ed8;
+  background: rgba(59, 130, 246, 0.12);
 }
 
 .chat-inbox-list {
